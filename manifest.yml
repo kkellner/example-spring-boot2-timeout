@@ -1,0 +1,7 @@
+---
+applications:
+- name: timeout-example
+  memory: 1G
+  instances: 1
+  buildpack: java_buildpack_offline
+  path: build/libs/example-spring-boot2-timeout-0.0.1-SNAPSHOT.jar
